@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(240, 253, 244);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #a8dadc;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #a8dadc !important;
+}
+
+.bgg-image {
+  background-image: url("assets/services/img-3.jpg");
+}
