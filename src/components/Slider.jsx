@@ -12,6 +12,11 @@ function Slider() {
 
   SwiperCore.use([Autoplay, Navigation, Pagination]);
 
+  function contactUs(data) {
+    const { name } = data;
+    console.log(name);
+  }
+
   return (
     listings && (
       <>
@@ -39,6 +44,12 @@ function Slider() {
               </p>
               <p className="text-[#f1faee] absolute left-1 bottom-1 font-semibold max-w-[90%] bg-[#e63946] shadow-lg opacity-90 p-2 rounded-tr-3xl">
                 We offer {data.name} on credits
+              </p>
+              <p
+                onClick={() => contactUs(data)}
+                className="text-[#eefaf3] absolute right-0 top-[200px] font-semibold max-w-[90%] bg-[#308453] shadow-lg opacity-90 p-2 rounded-bl-3xl rounded-tl-3xl cursor-pointer"
+              >
+                Contact us for {data.name} flexible payment plans
               </p>
             </SwiperSlide>
           ))}

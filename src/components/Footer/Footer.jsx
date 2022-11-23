@@ -11,17 +11,20 @@ const Footer = () => {
             className="lg:text-2xl text-xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
           >
-            Own your <span className="text-teal-400">dream house</span> now
+            Subscribe to <span className="text-teal-400">our promotions</span> weekly
           </h1>
-          <div className="flex">
-            <p className="text-white  sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2">
-              Call or whatsapp us on
-            </p>
+          <div>
+            <input
+              type="email"
+              placeholder="Enter email"
+              className="text-gray-800
+           sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none"
+            />
             <button
               className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
-           rounded-md text-white md:w-auto w-full sm:w-72"
+           rounded-md text-white md:w-auto w-full"
             >
-              123456789
+              Subscribe
             </button>
           </div>
         </div>

@@ -11,7 +11,7 @@ export const BUILDING_CONSTRUCTION_1 = [
   { name: "laying of tiles", link: "" },
 ];
 export const BUILDING_CONSTRUCTION_2 = [
-  { name: "laying of tiles", link: "" },
+  { name: "Bore hole drilling", link: "" },
   { name: "carpentry works", link: "" },
   { name: "roofing works", link: "" },
   { name: "pop", link: "" },

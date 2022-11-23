@@ -2,7 +2,8 @@ import pop from "../assets/services/pop.jpg";
 import electrico from "../assets/services/electrico.jpg";
 import archito from "../assets/services/archito.jpeg";
 import roofing from "../assets/services/roofing.webp";
-import img5 from "../assets/services/img-5.jpg";
+import painting from "../assets/services/painting.webp";
+import paiinting from "../assets/services/paiinting.webp";
 import img6 from "../assets/services/img-6.jpg";
 import img7 from "../assets/services/img-7.jpg";
 
@@ -34,6 +35,13 @@ const listings = [
       name: "Roofing Works",
     },
     id: 4,
+  },
+  {
+    data: {
+      img: paiinting,
+      name: "General Painting",
+    },
+    id: 5,
   },
 ];
 
