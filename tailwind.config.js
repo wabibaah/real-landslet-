@@ -6,9 +6,9 @@ module.exports = {
       colors: {
         primary: "#4A3AFF",
       },
-      // backgroundImage: {
-      //   Hero: "url('assets/Hero.png')",
-      // },
+      fontFamily: {
+        Kenia: ["Kenia", , "cursive"],
+      },
     },
   },
   plugins: [],

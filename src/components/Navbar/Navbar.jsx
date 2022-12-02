@@ -38,28 +38,28 @@ const Navbar = () => {
         </div>
         {/* Mobile nav */}
         <ul
-          className={`uppercase md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4 duration-500 z-40 ${
+          className={`uppercase md:hidden bg-teal-100 fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4 duration-500 z-40 ${
             open ? "left-0" : "left-[-100%]"
           }
         `}
         >
-          <li>
+          <li onClick={() => setOpen(false)}>
             <Link to="/" className="py-7 px-3 inline-block">
               Home
             </Link>
           </li>
-          <li>
+          <li onClick={() => setOpen(false)}>
             <Link to="/about" className="py-7 px-3 inline-block">
               About
             </Link>
           </li>
           <NavLinks />
-          <li>
+          <li onClick={() => setOpen(false)}>
             <Link to="/contact" className="py-7 px-3 inline-block">
               Contact
             </Link>
           </li>
-          <div className="py-5">
+          <div onClick={() => setOpen(false)} className="py-5">
             <Button />
           </div>
         </ul>

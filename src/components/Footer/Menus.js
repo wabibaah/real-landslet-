@@ -4,18 +4,18 @@ export const CONTACT = [
   { name: "location", link: "/contact" },
 ];
 export const BUILDING_CONSTRUCTION_1 = [
-  { name: "architectural design", link: "" },
-  { name: "electrical engineering", link: "" },
-  { name: "plumbing works", link: "" },
-  { name: "general painting", link: "" },
-  { name: "laying of tiles", link: "" },
+  { name: "architectural design", link: "/services" },
+  { name: "electrical engineering", link: "/services" },
+  { name: "plumbing works", link: "/services" },
+  { name: "general painting", link: "/services" },
+  { name: "laying of tiles", link: "/services" },
 ];
 export const BUILDING_CONSTRUCTION_2 = [
-  { name: "Bore hole drilling", link: "" },
-  { name: "carpentry works", link: "" },
-  { name: "roofing works", link: "" },
-  { name: "pop", link: "" },
-  { name: "skimming", link: "" },
+  { name: "Bore hole drilling", link: "/services" },
+  { name: "carpentry works", link: "/services" },
+  { name: "roofing works", link: "/services" },
+  { name: "pop", link: "/services" },
+  { name: "skimming", link: "/services" },
 ];
 export const SALE_RENT_LEASE = [
   { name: "Lands", link: "#" },

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -30,7 +31,7 @@ body {
 }
 
 .logo {
-  @apply text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full  grid place-items-center;
+  @apply text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] max-h-[5rem] rounded-full  grid place-items-center;
 }
 
 .para {
