@@ -12,7 +12,7 @@ export const links = [
           { name: "general painting", link: "/services" },
           { name: "laying of tiles", link: "/services" },
           { name: "carpentry works", link: "/services" },
-          { name: "bore hole drilling", link: "/services" },
+          { name: "borehole drilling", link: "/services" },
           { name: "roofing works", link: "/services" },
           { name: "pop", link: "/services" },
           { name: "skimming", link: "/services" },

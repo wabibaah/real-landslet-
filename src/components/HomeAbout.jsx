@@ -27,7 +27,7 @@ function HomeAbout() {
                 <p className="text-sm text-gray-900">1. Customer satisfaction and delight</p>
                 <p className="text-sm text-gray-900">2. We value diversity</p>
                 <p className="text-sm text-gray-900">
-                  3. We treat our customer with dignity and respect
+                  3. We treat our customers with dignity and respect
                 </p>
                 <p className="text-sm text-gray-900">
                   4. We are responsible for our actions and undertake to deliver on our commitments

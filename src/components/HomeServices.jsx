@@ -34,7 +34,7 @@ function HomeServices() {
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
               As a customer oriented company, we focus on activities that are highly cost effective
-              and quality services to he target market delight and satisfaction.
+              and quality services to the target market delight and satisfaction.
             </p>
             <p className="text-base text-gray-700 md:text-lg">
               We strive to follow international standards that are beneficial to our customers
@@ -59,18 +59,29 @@ function HomeServices() {
                 <p className="text-sm text-gray-900 capitalize">7. roofing works</p>
                 <p className="text-sm text-gray-900 capitalize">8. POP</p>
                 <p className="text-sm text-gray-900 capitalize">9. skimming</p>
+                <p className="text-sm text-gray-900 capitalize">10. Borehole drilling</p>
               </div>
             </div>
             <div className="bg-white border-l-4 shadow-sm border-[#e63946]">
               <div className="h-full p-5 border border-l-0 rounded-r">
                 <h6 className="mb-2 font-semibold leading-5 capitalize underline">Sale of land</h6>
                 <p className="text-sm text-gray-900 mb-5">
-                  Our beautiful lands are located at the following localities in the Ga South
-                  Municipality
+                  We have beautiful lands that are litigation free in the following locations.
                 </p>
-                <p className="text-sm text-gray-900">1. Agbezo</p>
-                <p className="text-sm text-gray-900">2. Akoteaku</p>
-                <p className="text-sm text-gray-900">2. Obakra</p>
+                <p className="text-sm text-gray-900">1. Greater Accra</p>
+                <p className="text-sm text-gray-900">2. Ashanti</p>
+                <p className="text-sm text-gray-900">3. Tamale</p>
+              </div>
+            </div>
+            <div className="bg-white border-l-4 shadow-sm border-[#e63946]">
+              <div className="h-full p-5 border border-l-0 rounded-r">
+                <h6 className="mb-2 font-semibold leading-5 capitalize underline">Sale of land</h6>
+                <p className="text-sm text-gray-900 mb-5">
+                  We have beautiful lands that are litigation free in the following locations.
+                </p>
+                <p className="text-sm text-gray-900">1. Greater Accra</p>
+                <p className="text-sm text-gray-900">2. Ashanti</p>
+                <p className="text-sm text-gray-900">3. Tamale</p>
               </div>
             </div>
           </div>
